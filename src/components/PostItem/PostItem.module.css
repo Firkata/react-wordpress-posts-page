@@ -1,0 +1,60 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.Card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: auto;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  width: 40%;
+}
+
+/* Todo: fix the image */
+.WrapperContainer {
+  position: relative;
+  height: 0;
+  padding-top: calc(250 / 360 * 100%);
+}
+
+.ImageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+}
+
+.Image {
+  height: 50vh;
+  width: 100%;
+  /* object-fit: cover; */
+}
+
+.Body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.Title {
+}
+
+.Content {
+  flex: 1;
+}
+
+.Author {
+}

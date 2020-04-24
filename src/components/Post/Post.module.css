@@ -1,0 +1,24 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: auto;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  width: 70%;
+}
+
+.Loading {
+  font-size: large;
+  font-weight: bold;
+}
